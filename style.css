@@ -45,36 +45,17 @@ img.head-line {
     margin-left: 1rem;
 }
 
-.red-live {
-    background: red;
-    color: #fff;
-    border-radius: 2rem;
-    padding: .25rem;
-    padding-left: .75rem;
-    padding-right: .75rem;
-    align-items: center;
-    display: inline-flex;
-    vertical-align: middle;
-}
-
-a.nav-link {
-    color: #FFFFFF;
-    font-size: 16px;
-    font-family: 'Noto Sans', sans-serif;
-}
-
 .nav__container-wrapper {
     margin-top: 1rem;
 }
 
-.nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+li {
+    display: inline;
+}
+
+li a {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 * {
