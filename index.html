@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workpoint TV</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="header-wrapper">
         <img class="head-line" src="https://www.workpointtv.com/wp-content/themes/wptv/assets/head-line.png">
 
         <div class="logo_wrapper cleverse-container">
@@ -21,13 +23,15 @@
                 <a href="https://www.workpointtv.com"><img src="https://www.workpointtv.com/wp-content/themes/wptv/assets/logo-wptv.png"></a>
             </div>
             <div class="menu-icon">
-                <a href="https://www.workpointtv.com?s"><i class="material-icons">search</i></a>
+                <a href="https://www.workpointtv.com?s">
+                    <i class="material-icons" style="color: #fff;">search</i>
+                </a>
                 <i class="material-icons menu-ham-icon">menu</i>
             </div>
         </div>
-        <ul class="cleverse-container nav__container-wrapper ">
+        <ul class="cleverse-nav__container-wrapper cleverse-container nav__container-wrapper ">
             <li>
-                <a href="#"></a>รายการสด</li>
+                <a href="#"></a>รายการสด<span class="red-live"></span></li>
             <li>
                 <a href="#"></a>รายการ</li>
             <li>
@@ -41,10 +45,34 @@
             <li>
                 <a href="#"></a>WorkpointTODAY</li>
         </ul>
-
-
-
     </header>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000" style="width: 100%; height: 781.05px; object-fit: cover;">
+                <a href="https://www.workpointtv.com/program/%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%87%e0%b8%82%e0%b9%89%e0%b8%b2%e0%b8%a1%e0%b8%81%e0%b8%b3%e0%b9%81%e0%b8%9e%e0%b8%87-thewallsong/">
+                    <img src="https://site-assets.mediaoxide.com/workpointtv/2020/09/01070412/desktop-3200x1500.jpg" class="d-block w-100">
+                </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000" style="width: 100%; height: 781.05px; object-fit: cover;">
+                <a href="https://www.workpointtv.com/program/%e0%b8%a2%e0%b8%b7%e0%b8%99-1-%e0%b8%96%e0%b8%b6%e0%b8%87-3/">
+                    <img src="https://site-assets.mediaoxide.com/workpointtv/2020/10/29081454/desktop-3200x1500-1-scaled.jpg" class="d-block w-100">
+                </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000" style="width: 100%; height: 781.05px; object-fit: cover;">
+                <a href="https://www.workpointtv.com/program/%e0%b9%82%e0%b8%88%e0%b9%8a%e0%b8%81%e0%b8%95%e0%b8%b1%e0%b8%94%e0%b9%82%e0%b8%88%e0%b9%8a%e0%b8%81/">
+                    <img src="https://site-assets.mediaoxide.com/workpointtv/2021/01/13032846/desktop-3200x1500-1-3-scaled.jpg" class="d-block w-100">
+                </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000" style="width: 100%; height: 781.05px; object-fit: cover;">
+                <a href="https://www.workpointtv.com/program/%e0%b8%ab%e0%b8%b1%e0%b8%a7%e0%b8%97%e0%b9%89%e0%b8%b2%e0%b8%a2%e0%b8%95%e0%b8%b2%e0%b8%a2%e0%b8%81%e0%b9%88%e0%b8%ad%e0%b8%99/">
+                    <img src="https://site-assets.mediaoxide.com/workpointtv/2021/01/04080531/desktop-3200x1500-1-scaled.jpg" class="d-block w-100">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+        test
+    </div>
 </body>
 
 </html>
