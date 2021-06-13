@@ -15,54 +15,65 @@
 </head>
 
 <body>
-    <header style="background-color: crimson;">
+    <header class="header-wrapper">
         <img class="head-line" src="https://www.workpointtv.com/wp-content/themes/wptv/assets/head-line.png">
-        <div class="logo_wrapper cleverse-container">
-            <div class="logo_container">
-                <a href="https://www.workpointtv.com"><img src="https://www.workpointtv.com/wp-content/themes/wptv/assets/logo-wptv.png"></a>
-            </div>
-            <div class="menu-icon">
-                <a href="https://www.workpointtv.com?s">
-                    <i class="material-icons" style="color: #fff;">search</i>
-                </a>
-                <i class="material-icons menu-ham-icon">menu</i>
-            </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarLeftAlignExample" aria-controls="navbarLeftAlignExample" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-              </button>
-                <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 cleverse-container cleverse-nav__container-wrapper">
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+        <div class="head_line_wrapper">
+            <div class="logo_wrapper cleverse-container">
+                <div class="logo_container logo-mobile show_mobile">
+                    <a href="https://www.workpointtv.com">
+                        <img src="https://www.workpointtv.com/wp-content/themes/wptv/assets/logo-wp-white.png">
                     </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <a class="dropdown-item" href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                </div>
+                <div class="logo_container hide_mobile">
+                    <a href="https://www.workpointtv.com"><img src="https://www.workpointtv.com/wp-content/themes/wptv/assets/logo-wptv.png"></a>
+                </div>
+                <div class="menu-icon">
+                    <a href="https://www.workpointtv.com?s"><i class="material-icons">
+                    search
+                    </i></a>
+                    <i class="material-icons menu-ham-icon">
+                    menu
+                    </i>
                 </div>
             </div>
+        </div>
+        <ul class="menu-container cleverse-nav__container-wrapper">
+            <li>
+                <a href="#">รายการสด <span class="red-live"></span></a>
+            </li>
+            <li>
+                <a class="right-dropdown" href="#">รายการ</a>
+                <a class="dropdown-toggle dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false"></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                        <a class="dropdown-item" href="#">Action</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">ผังรายการ</a>
+            </li>
+            <li>
+                <a href="#">ศิลปินดารา</a>
+            </li>
+            <li>
+                <a href="#">เพลง</a>
+            </li>
+            <li>
+                <a href="#">ข่าวประชาสัมพันธ์</a>
+            </li>
+            <li>
+                <a href="#">workpointTODAY</a>
+            </li>
+        </ul>
+    </header>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
 </body>
 
 </html>
