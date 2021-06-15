@@ -141,6 +141,10 @@ li a {
     color: #ffffff;
 }
 
+li a:hover {
+    color: #ffffff;
+}
+
 li a.dropdown {
     padding-left: 0;
 }
@@ -222,4 +226,15 @@ a:link {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+}
+
+.box1 {
+    min-width: 100%;
+    min-height: 184px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2rem;
+    cursor: pointer;
 }
