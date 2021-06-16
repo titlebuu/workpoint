@@ -2,7 +2,7 @@ header.header-wrapper {
     position: fixed;
     width: 100%;
     min-height: 5rem;
-    background-color: #004393;
+    background-color: transparent;
     z-index: 999;
     transition: all .5s ease-in-out;
     padding-bottom: 1.5rem;
