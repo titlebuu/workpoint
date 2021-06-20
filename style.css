@@ -239,3 +239,9 @@ a:link {
     margin-bottom: 2rem;
     cursor: pointer;
 }
+
+.cropped1 {
+    display: block;
+    height: 666.05px;
+    object-fit: cover;
+}
