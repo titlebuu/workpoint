@@ -240,8 +240,33 @@ a:link {
     cursor: pointer;
 }
 
-.cropped1 {
-    display: block;
-    height: 666.05px;
-    object-fit: cover;
+.space {
+    margin-top: 10rem;
+}
+
+.crop-slide {
+    width: 100%;
+    margin: -5.875% 0;
+}
+
+.mb-crop-slide {
+    margin: 0 -50.985%;
+    width: 202.777%;
+}
+
+.cleverse-v-space {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cleverse-rounded {
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.cleverse-all-color-black *,
+.cleverse-all-color-black:hover,
+.cleverse-all-color-black:hover * {
+    color: #0d1c2d;
+    text-decoration: none!important;
 }
