@@ -270,3 +270,56 @@ a:link {
     color: #0d1c2d;
     text-decoration: none!important;
 }
+
+.video-program__outer {
+    padding-top: 56.5%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn-play1 {
+    width: 100%;
+    max-width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.figure-img {
+    margin-bottom: .5rem;
+    line-height: 1;
+}
+
+.cleverse-rounded {
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.figure-caption {
+    font-size: 90%;
+    color: #6c757d;
+}
+
+.video-program__outer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.clevrse-btn {
+    width: 100%;
+    line-height: 4rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    color: #df2759;
+    display: block;
+}
