@@ -323,3 +323,10 @@ a:link {
     color: #df2759;
     display: block;
 }
+
+.cleverse-banner-section .cleverse-banner__bg-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
