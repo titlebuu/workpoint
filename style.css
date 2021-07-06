@@ -363,7 +363,9 @@ a:link {
     width: 100%;
     overflow: hidden;
 }
-.test img{
+.test1 img{
          width: 100%;
-         margin: -2rem 0 0;
+         height: auto;
+         margin: -29rem 0 0;
      }
+
