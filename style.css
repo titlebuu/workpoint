@@ -371,6 +371,7 @@ a:link {
     width: 100%;
     overflow: hidden;
 }
+<<<<<<< HEAD
 
 .test {
     width: 100%;
@@ -408,3 +409,11 @@ a:link {
     border-radius: .75rem;
     overflow: hidden;
 }
+=======
+.test1 img{
+         width: 100%;
+         height: auto;
+         margin: -29rem 0 0;
+     }
+
+>>>>>>> 13346c8bfa23426959669f1a5bf345d0c245102e
