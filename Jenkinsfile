@@ -18,14 +18,14 @@ pipeline {
 
         stage('Install') {
             steps {
-                sh 'apk add git'
+                sh 'pwd'
 
             }
         }
 
         stage('Build') {
             steps {
-                sh 'apk add git'
+                sh 'pwd'
 
             }
         }
