@@ -1,10 +1,17 @@
 pipeline {
 
+    agent {
+        docker {
+            image 'node:16-alpine3.14'
+            args '-p 3000:3000 -p 5000:5000'
+            args '-u 0:0'
+
+        }
+    }
+
     environment {
         project_name = 'uat/authentication'
         outputPath = 'authentication'
-        host = '147.50.152.67'
-        project_path = 'var/www/cicdsrv2.philliplife.com'
     }
 
     stages {
@@ -12,12 +19,7 @@ pipeline {
         stage('Install') {
             steps {
                 sh 'apk add git'
-            }
-        }
 
-        stage('Build') {
-            steps {
-                sh 'pwd'
             }
         }
 
