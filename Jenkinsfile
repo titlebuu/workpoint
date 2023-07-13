@@ -23,5 +23,12 @@ pipeline {
             }
         }
 
+        stage('Build') {
+            steps {
+                sh 'apk add git'
+
+            }
+        }
+
     }
 }
